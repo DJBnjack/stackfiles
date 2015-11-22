@@ -1,0 +1,5 @@
+socketserver:
+  image: 'tutum.co/djbnjack/socketserver:latest'
+  autoredeploy: true
+  ports:
+    - '3210:3210'

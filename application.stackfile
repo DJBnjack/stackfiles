@@ -1,0 +1,5 @@
+dashboard:
+  image: 'tutum.co/djbnjack/dashboard:latest'
+  autoredeploy: true
+  ports:
+    - '3001:3001'

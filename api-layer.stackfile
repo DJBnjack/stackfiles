@@ -1,0 +1,5 @@
+processes-api:
+  image: 'tutum.co/djbnjack/processes-api:latest'
+  autoredeploy: true
+  ports:
+    - '3000:3000'
